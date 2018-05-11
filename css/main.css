@@ -1,0 +1,175 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+
+
+
+/*
+#output {
+    font-size: 66px;
+    color: #005d98;
+    text-align: left;
+    position: fixed;
+    bottom: 18px;
+}
+*/
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.home-list {
+    margin: 3em 8em;
+    border: 0.05em solid #f0f;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 0.5em 0.3em 0.8em #9edeff;
+    box-shadow: 0.5em 0.3em 0.8em #9edeff;    
+}
+
+ul.home-list>li {
+    line-height: 2.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-left: 2em;
+    cursor: pointer;
+}
+
+ul.home-list>li:hover {
+    background: #005d98;
+    color: #fff;
+}
+
+#progress {
+    background: #005d98;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 2em;
+    width: 0%;
+}
+
+.pinch-container {
+    position: fixed;
+    top: 0;
+    bottom: 2em;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+
+.pinch-container>ul.sample-list {
+    position: fixed;
+    top: 0;
+    bottom: 2em;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.pinch-container>ul.sample-list>li {
+    width: 10%;
+    float: left;
+    height: 100%;
+    line-height: 100%;
+    display: inline;
+}
+
+.pinch-container>ul.sample-list>li>ul {
+    height: 100%;
+}
+
+.pinch-container>ul.sample-list>li>ul>li {
+    height: 10%;
+}
+
+.completed-frame {
+    border: 0.05em solid #f0f;
+    -webkit-box-shadow: 0 0 5em #9edeff inset;
+    box-shadow: 0 0 5em #9edeff inset;
+}
+
+.bg-1 {
+    background: url('../assets/images/1.jpg') no-repeat 0 0;
+}
+
+.bg-2 {
+    background: url('../assets/images/2.jpg') no-repeat 0 0;
+}
+
+.bg-3 {
+    background: url('../assets/images/3.jpg') no-repeat 0 0;
+}
+
+.bg-4 {
+    background: url('../assets/images/4.jpg') no-repeat 0 0;
+}
+
+.bg-5 {
+    background: url('../assets/images/5.jpg') no-repeat 0 0;
+}
+
+.bg-6 {
+    background: url('../assets/images/6.jpg') no-repeat 0 0;
+}
+
+.bg-7 {
+    background: url('../assets/images/7.jpg') no-repeat 0 0;
+}
+
+.bg-8 {
+    background: url('../assets/images/8.jpg') no-repeat 0 0;
+}
+
+.bg-9 {
+    background: url('../assets/images/9.jpg') no-repeat 0 0;
+}
+
+.bg-10 {
+    background: url('../assets/images/10.jpg') no-repeat 0 0;
+}
+
+.bg-11 {
+    background: url('../assets/images/11.jpg') no-repeat 0 0;
+}
+
+.bg-12 {
+    background: url('../assets/images/12.jpg') no-repeat 0 0;
+}
+
+.bg-13 {
+    background: url('../assets/images/13.jpg') no-repeat 0 0;
+}
+
+.bg-14 {
+    background: url('../assets/images/14.jpg') no-repeat 0 0;
+}
+
+.bg-15 {
+    background: url('../assets/images/15.jpg') no-repeat 0 0;
+}
+
+.bg-16 {
+    background: url('../assets/images/16.jpg') no-repeat 0 0;
+}
+
+.bg-17 {
+    background: url('../assets/images/17.jpg') no-repeat 0 0;
+}
+
+.bg-18 {
+    background: url('../assets/images/18.jpg') no-repeat 0 0;
+}
+
+.bg-19 {
+    background: url('../assets/images/19.jpg') no-repeat 0 0;
+}
+
+.bg-20 {
+    background: url('../assets/images/20.jpg') no-repeat 0 0;
+}
+
+.bg-21 {
+    background: url('../assets/images/21.jpg') no-repeat 0 0;
+}
